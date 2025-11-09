@@ -1,0 +1,52 @@
+body {
+  
+    text-align: center;
+    background-color: transparent;
+    color: #333;
+}
+
+#jeu1 h1 {
+    color: #009BDE;
+}
+
+.coloring-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.palette {
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.coloring-image svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.coloring-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    gap: 5px; 
+    width: 100%; 
+    flex-wrap: nowrap; 
+}
+
+.coloring-image svg {
+    border: 2px solid #009BDE;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
